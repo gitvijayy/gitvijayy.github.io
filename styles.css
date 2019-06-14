@@ -56,12 +56,10 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 1%;
-  border-radius: 20px;
-  box-shadow: inset 0px -10px 25px black, 0px 5px 5px;
 }
 
 .top-container-left {
-  width: 70%;
+  /* width: 70%; */
   margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -133,7 +131,6 @@ a:hover {
 
 .top-container img {
   height: 150px;
-  width: 150px;
   margin-bottom: 5px;
 }
 
@@ -147,7 +144,13 @@ a:hover {
   font-size: 3.5vmax;
   color: #66bfbf;
   /* //font-size: 5.625rem; */
-  margin: 50px auto 0 auto;
+  font-family: "Lobster", cursive;
+}
+
+.name {
+  font-size: 3.5vmax;
+  margin-bottom: 0;
+  /* //font-size: 5.625rem; */
   font-family: "Lobster", cursive;
 }
 
@@ -224,6 +227,23 @@ ul {
   box-shadow: inset 0px -10px 25px black, 0px 5px 5px;
 }
 
+.skills article {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills h4 {
+  font-size: 1.1em;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 
 @media screen and (min-width: 601px) {
@@ -233,9 +253,9 @@ ul {
   .variable-font a {
     font-size: 2vw;
   }
-  .middle-container-left img {
-    height: 8vw;
-    width: 8vw;
+  .skills img {
+    height: 5vw;
+    width: 5vw;
   }
 }
 
@@ -248,9 +268,9 @@ ul {
   .variable-font a {
     font-size: 6vw;
   }
-  .middle-container-left img {
-    height: 16vw;
-    width: 16vw;
+  .skills img {
+    height: 8vw;
+    width: 8vw;
   }
   .middle-container-left {
     width: 100%;

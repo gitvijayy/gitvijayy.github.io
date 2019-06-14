@@ -1,7 +1,7 @@
 $(document).ready(function () {
   console.log("in1")
-  $(document).on(`click`, `.testing`, function () {
+  $(document).on(`click`, `.projects`, function () {
 
-    console.log("in2")
+    $('.projects-block').css("display", "none")
   })
 })
