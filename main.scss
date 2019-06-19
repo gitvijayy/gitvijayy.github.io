@@ -1,0 +1,163 @@
+$stack-color: #27233a;
+$stack-text: white;
+
+#profile {
+  .about {
+    padding-top: 2%;
+    img {
+      height: 100px;
+      width: 100px;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      margin: 2%;
+    }
+  }
+  .skills {
+    margin: 2%;
+    article {
+      margin: 1%;
+    }
+    img {
+      height: 4rem;
+      width: 4rem;
+      justify-content: space-around;
+    }
+    h4 {
+      font-size: 1rem;
+      width: 5rem;
+    }
+  }
+  .education {
+    padding-top: 2%;
+  }
+
+  .projects {
+    padding-top: 2%;
+    a img {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .career {
+    padding-top: 2%;
+  }
+  .contact {
+    margin-top: 3%;
+    padding-bottom: 4%;
+  }
+}
+
+hr {
+  border: dotted #2a2c2c 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  background-color: rgb(73, 72, 70);
+}
+.project-date {
+  position: absolute;
+  right: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.stack {
+  box-shadow: inset 0px -10px 25px $stack-color, 0px 5px 5px black;
+  background: $stack-color;
+  background-color: $stack-color !important;
+  color: $stack-text;
+  margin: 3%;
+}
+
+.stack-1 {
+  box-shadow: inset 0px -10px 25px $stack-color, 0px 5px 5px black;
+  background: $stack-color;
+  background-color: $stack-color !important;
+  color: $stack-text;
+}
+
+.linkedin {
+  background-image: url("images/linkedin-full.png");
+  background-size: contain;
+}
+
+.contact-btn {
+  background: $stack-color !important;
+}
+
+.active {
+  background: $stack-color;
+  color: $stack-text !important;
+}
+
+.active a {
+  color: white;
+}
+
+.scroll-link a:hover {
+  opacity: 0.7;
+}
+
+.sample {
+  padding: 3%;
+}
+
+// Sticky Navigational bar mobile and desktop
+.navbar {
+  border: 0px;
+  background-color: #222222;
+  position: absolute;
+  top: 100%;
+  // right: 5%;
+  right: 0;
+  width: 110px;
+  z-index: 999;
+}
+
+.fixed .navbar {
+  position: fixed;
+  top: 200px;
+  padding: 0;
+}
+
+@media (max-width: 1000px) {
+  .fixed .navbar {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: -webkit-fill-available;
+  }
+  #profile .about {
+    padding-top: 9%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+}
+
+.navbar .nav > li {
+  display: block;
+  float: none;
+  height: 80px;
+  width: -webkit-fill-available;
+}
+
+.navbar .nav > li a {
+  display: block;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}

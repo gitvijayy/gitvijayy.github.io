@@ -1,0 +1,156 @@
+#profile .about {
+  padding-top: 2%;
+}
+#profile .about img {
+  height: 100px;
+  width: 100px;
+}
+#profile .about p {
+  font-size: 1.2rem;
+}
+#profile .about h1 {
+  margin: 2%;
+}
+#profile .skills {
+  margin: 2%;
+}
+#profile .skills article {
+  margin: 1%;
+}
+#profile .skills img {
+  height: 4rem;
+  width: 4rem;
+  justify-content: space-around;
+}
+#profile .skills h4 {
+  font-size: 1rem;
+  width: 5rem;
+}
+#profile .education {
+  padding-top: 2%;
+}
+#profile .projects {
+  padding-top: 2%;
+}
+#profile .projects a img {
+  height: 50px;
+  width: 50px;
+}
+#profile .career {
+  padding-top: 2%;
+}
+#profile .contact {
+  margin-top: 3%;
+  padding-bottom: 4%;
+}
+
+hr {
+  border: dotted #2a2c2c 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  background-color: #494846;
+}
+
+.project-date {
+  position: absolute;
+  right: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.stack {
+  box-shadow: inset 0px -10px 25px #27233a, 0px 5px 5px black;
+  background: #27233a;
+  background-color: #27233a !important;
+  color: white;
+  margin: 3%;
+}
+
+.stack-1 {
+  box-shadow: inset 0px -10px 25px #27233a, 0px 5px 5px black;
+  background: #27233a;
+  background-color: #27233a !important;
+  color: white;
+}
+
+.linkedin {
+  background-image: url("images/linkedin-full.png");
+  background-size: contain;
+}
+
+.contact-btn {
+  background: #27233a !important;
+}
+
+.active {
+  background: #27233a;
+  color: white !important;
+}
+
+.active a {
+  color: white;
+}
+
+.scroll-link a:hover {
+  opacity: 0.7;
+}
+
+.sample {
+  padding: 3%;
+}
+
+.navbar {
+  border: 0px;
+  background-color: #222222;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 110px;
+  z-index: 999;
+}
+
+.fixed .navbar {
+  position: fixed;
+  top: 200px;
+  padding: 0;
+}
+
+@media (max-width: 1000px) {
+  .fixed .navbar {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: -webkit-fill-available;
+  }
+
+  #profile .about {
+    padding-top: 9%;
+  }
+}
+@media (min-width: 1000px) {
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+}
+.navbar .nav > li {
+  display: block;
+  float: none;
+  height: 80px;
+  width: -webkit-fill-available;
+}
+
+.navbar .nav > li a {
+  display: block;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
