@@ -1,5 +1,5 @@
-$stack-color: #27233a;
-$stack-text: white;
+$stack-color: wheat;
+$stack-text: black;
 
 #profile {
   .about {
@@ -91,11 +91,10 @@ hr {
 
 .active {
   background: $stack-color;
-  color: $stack-text !important;
 }
 
 .active a {
-  color: white;
+  color: black !important;
 }
 
 .scroll-link a:hover {

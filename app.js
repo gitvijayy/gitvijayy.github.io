@@ -161,7 +161,7 @@ var projects = [
     github: 'https://github.com/gitvijayy/TinyApp',
     host: '',
     description: `TinyURL clone, an application where you obtain a much 
-    shorter URL for the give long URL`,
+    shorter URL for the given long URL`,
     date: 'May 2019',
     stack: 'Javascript - HTML - CSS - NodeJS',
     image: 'images/tinyapp.png',
@@ -175,7 +175,7 @@ var career = [
     year: '2013 - 2018',
     work: `<ul style="text-align: left">
       <li> Developed key operational initiatives to drive and maintain substantial business growth.</li>
-      <li> Established and administered annual budget with effective controls to prevent overages, minimize burn
+      <li> Established and administered annual budget with effective controls to prevent overage, minimize burn
         rate and support
                 sustainability objectives.</li>
 

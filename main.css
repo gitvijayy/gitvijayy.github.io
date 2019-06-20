@@ -60,18 +60,18 @@ hr {
 }
 
 .stack {
-  box-shadow: inset 0px -10px 25px #27233a, 0px 5px 5px black;
-  background: #27233a;
-  background-color: #27233a !important;
-  color: white;
+  box-shadow: inset 0px -10px 25px wheat, 0px 5px 5px black;
+  background: wheat;
+  background-color: wheat !important;
+  color: black;
   margin: 3%;
 }
 
 .stack-1 {
-  box-shadow: inset 0px -10px 25px #27233a, 0px 5px 5px black;
-  background: #27233a;
-  background-color: #27233a !important;
-  color: white;
+  box-shadow: inset 0px -10px 25px wheat, 0px 5px 5px black;
+  background: wheat;
+  background-color: wheat !important;
+  color: black;
 }
 
 .linkedin {
@@ -80,16 +80,15 @@ hr {
 }
 
 .contact-btn {
-  background: #27233a !important;
+  background: wheat !important;
 }
 
 .active {
-  background: #27233a;
-  color: white !important;
+  background: wheat;
 }
 
 .active a {
-  color: white;
+  color: black !important;
 }
 
 .scroll-link a:hover {
