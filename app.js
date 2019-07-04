@@ -127,6 +127,27 @@ var education = [
 ]
 
 var projects = [
+
+  {
+    name: 'GameHub',
+    github: 'https://github.com/gitvijayy/gamehub',
+    host: '',
+    description: `A game center application where users can play card games, 
+    Contributed to the project by designing the structure, logic, front end design and led the team.`,
+    date: 'July 2019',
+    stack: 'Django - Python - Django Channels - Websockets - React - Redux - Postgres - Bootsrap',
+    image: 'images/gamehub.png',
+  },
+  {
+    name: 'My Webpage',
+    github: '',
+    host: '',
+    description: `The current webpage.`,
+    date: 'June 2019',
+    stack: 'Javascript - HTML - Boostrap - css',
+    image: 'images/webpage.png',
+  },
+
   {
     name: 'Goofspiel',
     github: 'https://github.com/gitvijayy/Goofspiel',
